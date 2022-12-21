@@ -3,6 +3,6 @@ const path = express.Router();
 
 const views = require('./views');
 
-path.route('/').get(views.index);
+path.route('/').post(views.previewPage);
 
 module.exports = path;

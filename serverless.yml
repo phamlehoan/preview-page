@@ -12,7 +12,7 @@ functions:
           path: /
           method: get
       - http:
-          path: /api/users
+          path: /api/preview-page
           method: get
 plugins:
   - serverless-offline

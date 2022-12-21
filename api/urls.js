@@ -1,8 +1,8 @@
 const express = require('express');
 const path = express.Router();
 
-const userRouter = require('./users/urls')
+const pageRouter = require('./pages/urls')
 
-path.use('/users', userRouter);
+path.use('/preview-page', pageRouter);
 
 module.exports = path;
